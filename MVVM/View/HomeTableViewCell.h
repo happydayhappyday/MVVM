@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HomeTableViewCell.h
 //  MVVM
 //
 //  Created by xiayuanqun on 17/1/19.
@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "HomeModel.h"
+@interface HomeTableViewCell : UITableViewCell
 
-@interface ViewController : UIViewController
-
-
+@property (nonatomic,strong) HomeModel *data;
 @end
-
